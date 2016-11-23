@@ -5,32 +5,31 @@
 #include<stdio.h>
 
 main(){
-	    int Dis; //variabile disabile 
+	    int Dis; // variabile disabile 
 	    int Acc; //variabile accompagnatore
-		int Eta; //variabile età
-		int Alt; //variabile altezza
-		float Prezzo; //variabile prezzo
-		float PrezzoSupplemento;
-		int Supplemento;
-		printf("La persona è disabile?(0.SI,1.NO)");
+		int Eta; // variabile etÃ 
+		int Alt; // variabile altezza
+		float Prezzo; // variabile prezzo
+		int Supplemento;// variabile supplemento
+		printf("La persona Ã¨ disabile?(0.SI,1.NO)");
 		scanf("%f",&Dis);
 		if(Dis==0){
 			       Prezzo=0 ;
 			      }
 	    else{
-	          printf("La persona è un accompagnatore?(0.SI,1.No)");
+	          printf("La persona Ã¨ un accompagnatore?(0.SI,1.No)");
 		      scanf("%d",&Acc);
 			  if(Acc==0){
 			 	         Prezzo=25.50;
 			 	          }        
 	            else{  
-				      printf("Qual'é l'età della persona?");
+				      printf("Qual'Ã© l'etÃ  della persona?");
 	                  scanf("%d",&Eta);
 	                  if(Eta>60){
 	          	                	 Prezzo=25.00;
 			                     }
 			         	else{
-								printf("Quale'è l'altezza della persona?");
+								printf("Quale'Ã¨ l'altezza della persona?");
 								scanf("%d",&Alt);
 								if(Alt<100){
 									         Prezzo=0;

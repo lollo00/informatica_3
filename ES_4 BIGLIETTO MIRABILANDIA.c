@@ -5,8 +5,8 @@
 #include<stdio.h>
 
 main(){
-	    int Dis; // variabile disabile 
-	    int Acc; //variabile accompagnatore
+	        int Dis; // variabile disabile 
+	        int Acc; //variabile accompagnatore
 		int Eta; // variabile età
 		int Alt; // variabile altezza
 		float Prezzo; // variabile prezzo

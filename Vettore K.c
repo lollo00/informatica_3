@@ -1,7 +1,8 @@
 /* Titolo: Scrivere un programma in pseudocodifica e successivamente in linguaggio c che dato un vettore di K elementi
            con K compreso fra n1 e n2 con n2 minore di mille e dispari e uno scalare num intero effutui
            il prodotto tra lo scalare e il vettore.
-           */
+    Studente:Lorenzo Gezzi        Classe:3INA
+	Data: 30/01/2017           */
 main(){
 	     int  N2;
 	     int  N1;
@@ -34,6 +35,6 @@ main(){
 	    	              vett[I]=vett[I]*Num;
 	    	              printf("%d",vett[I]);
 		                }
-		
+		system("PAUSE");
 		
 }

@@ -10,7 +10,6 @@ int main(){
             int cont;
             int i;
             char parola[100];
-            int medio;
             printf("Inserire la parola ");
             scanf("%s",parola);
             cont=0;
